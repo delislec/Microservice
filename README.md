@@ -46,4 +46,27 @@ socket.send_json(request_payload)
 print("Request sent!")
 
 # Receiving Data
+After sending a request, wait for a response:
+
+1. Use the recv_json() method to receive the response.
+
+2. Parse the JSON response for the calculated calories and macros.
+
+# Receive response from the microservice
+response = socket.recv_json()
+
+print("Response received:")
+
+print(response)
+
+# Example Output of Payload
+{
+    "total_calories": 2000,
+    "macros": {
+        "carbs": 200.0,
+        "protein": 150.0,
+        "fats": 66.7
+    }
+}
+
 
