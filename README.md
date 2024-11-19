@@ -1,4 +1,4 @@
-# Microservice
+![image](https://github.com/user-attachments/assets/ee72f0ed-6418-46f2-90f3-065e25f69f05)# Microservice
 Microservice A implementation for CS361: Calorie and Macronutrient Calculator
 
 # Installation
@@ -73,5 +73,8 @@ print(response)
         "fats": 66.7
     }
 }
+
+# UML Diagram
+![image](https://github.com/user-attachments/assets/572ffaf2-2042-44cf-84ad-edfa1722597b)
 
 
