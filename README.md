@@ -53,6 +53,11 @@ After sending a request, wait for a response:
 2. Parse the JSON response for the calculated calories and macros.
 
 # Example of Receiving
+
+import time
+
+time.sleep(1) // One second delay before receiving the response
+
 response = socket.recv_json()
 
 print("Response received:")
