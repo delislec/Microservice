@@ -21,11 +21,15 @@ To send a request to the microservice:
 import zmq
 
 // Set up ZeroMQ client
+
 context = zmq.Context()
+
 socket = context.socket(zmq.REQ)
+
 socket.connect("tcp://localhost:5555")
 
 // Define request payload
+
 request_payload = {
     "age": 30,
     "gender": "male",
@@ -36,7 +40,9 @@ request_payload = {
 }
 
 // Send request to the microservice
+
 socket.send_json(request_payload)
+
 print("Request sent!")
 
 # Receiving Data
