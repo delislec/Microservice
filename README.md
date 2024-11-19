@@ -52,7 +52,7 @@ After sending a request, wait for a response:
 
 2. Parse the JSON response for the calculated calories and macros.
 
-# Receive response from the microservice
+# Example of Receiving
 response = socket.recv_json()
 
 print("Response received:")
