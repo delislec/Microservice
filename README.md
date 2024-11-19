@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ee72f0ed-6418-46f2-90f3-065e25f69f05)# Microservice
+# Microservice
 Microservice A implementation for CS361: Calorie and Macronutrient Calculator
 
 # Installation
